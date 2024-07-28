@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.RentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_img2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko_bold"
+        android:text="TeraMall"
+        android:textSize="52sp"
+        android:textColor="#F29500"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="95dp"
+        android:fontFamily="@font/athiti_medium"
+        android:text="Connecting Supply with Delight"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+
+        android:id="@+id/linear_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/highlight"
+        android:elevation="16dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            >
+            <ImageView
+                android:id="@+id/convenient"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/convenient"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/convenient"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/anton"
+                android:text="Tiện Lợi"
+                android:textColor="@color/black"
+                android:layout_marginEnd="16dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/stars" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/convenient"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/anton"
+                android:text="Uy Tín"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/fast"
+                android:layout_alignParentStart="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/convenient"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/anton"
+                android:text="Nhanh Chóng"
+                android:textColor="@color/black"
+                android:layout_marginLeft="8dp"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+     <LinearLayout
+         android:id="@+id/lay_hot"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="340dp"
+         android:layout_marginLeft="16dp"
+         >
+         <ImageView
+             android:layout_width="55dp"
+             android:layout_height="55dp"
+             android:src="@drawable/deal_hot"
+             android:layout_gravity="center_vertical"
+             android:layout_marginStart="16dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="@font/anton"
+             android:gravity="center_vertical"
+             android:includeFontPadding="true"
+             android:text="Mặt bằng hot"
+             android:textColor="#FF5151"
+             android:textSize="40sp"
+             android:layout_marginStart="16dp"/>
+     </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/lay_hot"
+        android:id="@+id/lay_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="32dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_filter">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/filter"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bộ lọc"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/athiti_medium"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/bt_Filter"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@color/cardview_shadow_end_color"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_category"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        tools:listitem="@layout/item_ground"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

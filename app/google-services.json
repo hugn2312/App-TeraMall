@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846782367117",
+    "firebase_url": "https://teramall-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "teramall",
+    "storage_bucket": "teramall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846782367117:android:09906ff7986be051cf69c4",
+        "android_client_info": {
+          "package_name": "com.example.teramall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846782367117-ojp896fv5pk0gansmm6vdr9ipkvsbotf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAidl-6_m4KrYBwxY79C-cFfg8j9K8Ci4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846782367117-ojp896fv5pk0gansmm6vdr9ipkvsbotf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

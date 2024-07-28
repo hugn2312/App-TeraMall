@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail.DetailEvent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/linearBack"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="16dp"
+                android:elevation="8dp">
+                <Button
+                    android:id="@+id/btnback_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_btback"
+                    android:drawableLeft="@drawable/baseline_arrow_back_24"
+                    />
+            </LinearLayout>
+                <ImageView
+                    android:id="@+id/img_Event"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:src="@drawable/tesy"
+                    android:scaleType="centerCrop"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/bg_profile"
+                android:layout_marginTop="280dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/bg_event2"
+                android:layout_marginTop="280dp"/>
+
+            <TextView
+                android:id="@+id/tv_nameEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/lato_bold"
+                android:padding="16dp"
+                android:text="VUI MUA SẮM CÙNG LỄ HỘI HÀNG NHẬT 2023"
+                android:textAlignment="center"
+                android:textColor="#F29500"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="368dp"
+                android:gravity="center"
+                android:fontFamily="@font/lato_bold"
+                android:padding="16dp"
+                android:text="11/07 - 24/07/2023"
+                android:textAlignment="center"
+                android:textColor="#AEAEAE"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="440dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="16dp"
+                android:text="Mùa hè đến, mùa hè đến hãy reo ca vui mừng, hãy chuẩn bị túi đựng thiệt bự đến Gigamall săn hàng Nhật xịn deal hời nào!
+Là sự kiện mua sắm thường niên được mong chờ nhất mỗi dịp hè đến, Gigamall kết hợp với Kohnan Japan tổ chức Lễ Hội Hàng Nhật 2023 vô cùng hấp dẫn:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

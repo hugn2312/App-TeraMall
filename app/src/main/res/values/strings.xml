@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TeraMall</string>
+    <string name="name_menu1">TeraMall</string>
+    <string name="name_menu2">Mặt bằng</string>
+    <string name="name_menu3">Cửa hàng</string>
+    <string name="name_menu4">Tài khoản</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

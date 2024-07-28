@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/teramall" android:title="@string/name_menu1"
+        android:icon="@drawable/logo_img2"/>
+    <item android:id="@+id/datxe" android:title="@string/name_menu2"
+        android:icon="@drawable/land"/>
+    <item android:id="@+id/shop" android:title="@string/name_menu3"
+        android:icon="@drawable/shop"/>
+    <item android:id="@+id/account" android:title="@string/name_menu4"
+        android:icon="@drawable/user"/>
+</menu>

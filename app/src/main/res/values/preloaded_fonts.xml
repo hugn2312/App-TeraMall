@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/amiko_bold</item>
+        <item>@font/antic_didone</item>
+        <item>@font/anton</item>
+        <item>@font/archivo_bold</item>
+        <item>@font/athiti_medium</item>
+        <item>@font/averia_libre_light</item>
+        <item>@font/baloo_chettan</item>
+        <item>@font/bree_serif</item>
+        <item>@font/cantora_one</item>
+        <item>@font/convergence</item>
+        <item>@font/lato_bold</item>
+    </array>
+</resources>
